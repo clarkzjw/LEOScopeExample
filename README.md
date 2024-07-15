@@ -1,6 +1,6 @@
 # LEOScope Example
 
-Example Docker image for [LEOScope](https://leoscope.surrey.ac.uk/) experiments.
+Example Docker image for [LEOScope](https://leoscope.surrey.ac.uk/) experiments, adapted from [projectleopard/leotest](https://hub.docker.com/r/projectleopard/leotest).
 
 ## Build
 
@@ -38,3 +38,7 @@ artifacts:
   path_local: "/artifacts"
 
 ```
+
+## Custom image
+
+You can build your own custom runner image for LEOScope, as long as the artifacts of your experiments are saved in the `/artifacts/` folder inside the container after the experiment finishes, such that they can be uploaded to the Azure storage container.
