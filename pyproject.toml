@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "leotest"
+version = "0.1.0"
+description = ""
+authors = ["clarkzjw <i@jinwei.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+azure-storage-blob = "^12.19.0"
+azure-core = "^1.30.0"
+importlib = "^1.0.4"
+pyyaml = "^6.0.1"
+pingparsing = "^1.4.1"
+matplotlib = "^3.8.3"
+grpcio = "^1.64.1"
+grpcio-tools = "^1.64.1"
+protobuf = "^5.27.0"
+yagrc = "^1.1.2"
+paho-mqtt = "^2.1.0"
+influxdb = "^5.3.2"
+influxdb-client = "^1.43.0"
+pypng = "^0.20220715.0"
+typing-extensions = "^4.12.1"
+croniter = "^2.0.5"
+python-dateutil = "^2.9.0.post0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
