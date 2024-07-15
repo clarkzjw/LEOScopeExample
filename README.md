@@ -1,3 +1,16 @@
+# LEOScope Example
+
+Example Docker image for [LEOScope](https://leoscope.surrey.ac.uk/) experiments.
+
+## Build
+
+See the [Dockerfile](./Dockerfile) and [build.sh](./build.sh) for the build instructions.
+
+## Usage
+
+See [experiment-config.yaml](./example/experiment-config.yaml) for an example experiment configuration.
+
+```bash
 docker: 
   image: 'clarkzjw/leoscope_example:latest'
   deploy: 
@@ -23,3 +36,5 @@ tests:
 
 artifacts:
   path_local: "/artifacts"
+
+```
